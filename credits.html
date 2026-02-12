@@ -1,0 +1,318 @@
+<!DOCTYPE HTML>
+<html><!-- InstanceBegin template="/Templates/layout.dwt" codeOutsideHTMLIsLocked="false" -->
+
+<head>
+    <meta charset="utf-8">
+    <!-- InstanceBeginEditable name="doctitle" -->
+    <title>Responsy - Responsive Portfolio</title>
+    <!-- InstanceEndEditable -->
+    <meta name="description" content="Responsive HTML5 Portfolio">
+	<meta name="author" content="Pixelwars">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+    
+    <!--favicons-->
+    <link rel="shortcut icon" href="favicon.ico">
+    <link rel="apple-touch-icon" href="img/apple-touch-icon-57.png" />
+    <link rel="apple-touch-icon" sizes="72x72" href="img/apple-touch-icon-72.png" />
+    <link rel="apple-touch-icon" sizes="114x114" href="img/apple-touch-icon-114.png" />
+    <link rel="apple-touch-icon" sizes="144x144" href="img/apple-touch-icon-144.png" />
+    
+    <!--fonts-->
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,600,700,800,300' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans+Condensed:700' rel='stylesheet' type='text/css'>
+    
+    <!--styles-->
+    <link rel="stylesheet" type="text/css" href="css/reset.css">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+    <link rel="stylesheet" type="text/css" href="css/flexslider.css">
+    <link class="skin" rel="stylesheet" type="text/css" href="css/light.css">
+     
+    <!--scripts-->
+    <!--[if lt IE 9]><script src="http://ie7-js.googlecode.com/svn/version/2.1(beta4)/IE9.js"></script><![endif]-->
+    <script src="../../ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+    <script src="js/jquery.easing.1.3.js"></script>
+    <script src="js/jquery.waitforimages.js"></script>
+    <script src="js/bootstrap.js"></script>
+    <script src="js/jquery.flexslider-min.js"></script>
+    <script src="js/jquery.fitvids.js"></script>
+    <!-- InstanceBeginEditable name="head" -->
+    <script>
+    	$(function() { $('#nav > li').eq(1).addClass('active') });
+    </script
+    ><!-- InstanceEndEditable -->
+    <script src="js/main.js"></script>
+    
+</head>
+
+<body>
+
+	
+    <!--************************** SKIN SELECT -->
+	<link rel="stylesheet" type="text/css" href="skin-select/skin-select.css">
+	<script src="skin-select/jquery.cookie.js"></script>
+    <script src="skin-select/skin-select.js"></script>
+    
+    <div id="skin-select">
+    	<a id="toggle"></a>
+    	<ul>
+        	<li><a href="css/light.css">Light</a></li>
+            <li><a href="css/dark.css">Dark</a></li>
+            <li><a href="none.html">Clean</a></li>
+            <li><a href="css/boxed.css">Boxed</a></li>
+        </ul>
+    </div>
+    <!--************************** SKIN SELECT -->
+    
+    
+    
+    <!--************************** CONTAINER -->
+    <div class="container">
+		
+        
+        <!--************************** HEADER -->
+        <header class="header row clearfix">
+            <div class="header-wrap span12">
+                <div class="row">
+                	
+                    
+                    <!--************************** LOGO -->
+                    <div id="logo" class="span4">
+                        <a href="index.html"><img src="img/logo-text.png" alt="logo"></a>
+                    </div>
+                    <!--************************** LOGO -->
+                    
+                    
+                    <!--************************** NAV -->
+                    <nav class="span8">
+                        
+                        <!-- PRIMARY NAV -->
+                        <ul id="nav">
+                            <li><a href="index.html">home</a>
+                                <ul>
+                                    <li><a href="index.html">home default</a></li>
+                                    <li><a href="index2.html">home full width slider</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="typo.html">features</a>
+                                <ul>
+                                    <li><a href="typo.html">typography</a></li>
+                                    <li><a href="shortcodes.html">shortcodes</a></li>
+                                    <li><a href="columns.html">columns</a>
+                                        <ul>
+                                            <li><a href="#">drop</a></li>
+                                            <li><a href="#">level</a></li>
+                                            <li><a href="#">three</a></li>
+                                        </ul>
+                                    </li>
+                                    <li><a href="archive.html">archive</a></li>
+                                    <li><a href="404.html">404</a></li>
+                                    <li><a href="credits.html">credits</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="portfolio.html">portfolio</a>
+                                <ul>
+                                    <li><a href="portfolio-single.html">single portfolio</a></li>
+                                    <li><a href="portfolio-single-gallery.html">single portfolio gallery</a></li>
+                                    <li><a href="portfolio-single-video.html">single portfolio video</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="blog.html">blog</a>
+                                <ul>
+                                	<li><a href="blog-full.html">blog layout 2</a></li>
+                                    <li><a href="blog-single.html">single post</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="contact.html">contact</a></li>
+                        </ul>
+                        <!-- PRIMARY NAV -->
+                        
+                        
+                        <!-- SOCIAL LINKS -->
+                        <ul class="social">
+                            <li><a class="facebook" href="#">Facebook</a></li>
+                            <li><a class="twitter" href="#">Twitter</a></li>
+                            <li><a class="flickr" href="#">Flickr</a></li>
+                            <!--<li><a class="dribble" href="#">Dribble</a></li>-->
+                            <li><a class="lastfm" href="#">Last Fm</a></li>
+                            <li><a class="linkedin" href="#">Linked In</a></li>
+                            <li><a class="vimeo" href="#">Vimeo</a></li>
+                            <li><a class="rss" href="#">RSS</a></li>
+                            <!--<li><a class="pinterest" href="#">Pinterest</a></li>-->
+                            <!--<li><a class="forrst" href="#">Forst</a></li>-->
+                            <!--<li><a class="skype" href="#">Skype</a></li>-->
+                            <!--<li><a class="picassa" href="#">Picassa</a></li>-->
+                            <!--<li><a class="youtube" href="#">Youtube</a></li>-->
+                            <!--<li><a class="google" href="#">Google Plus</a></li>-->
+                        </ul>
+                        <!-- SOCIAL LINKS -->
+                        
+                        
+                    </nav>
+                    <!--************************** NAV -->
+                    
+                </div>
+                <!--row-->
+            </div>
+            <!--header-wrap-->
+        </header>
+        <!--************************** HEADER -->
+        
+        
+        
+        
+        
+        <!--************************** MIDDLE -->
+        <section class="middle row">
+        	
+            	
+        <!-- InstanceBeginEditable name="MiddleContent" -->
+        	
+            
+            <!--************************** CONTENT -->
+            <div class="content span12">
+            	
+                <!-- PAGE HEADER -->
+                <div class="page-header">
+            		<h1><b>CREDITS</b></h1>
+                </div>
+                <!-- PAGE HEADER -->
+                
+                
+                <div class="row">
+                	
+                    <div class="span12">
+                    	<h2>Images used in the preview site by</h2>
+                    	<ul class="list simple">
+                           <li><a href="http://www.flickr.com/people/vfsdigitaldesign/">VFS Digital Design</a></li>
+						   <li><a href="http://www.flickr.com/people/karenhorton/">karen horton</a></li>
+						   <li><a href="http://www.flickr.com/people/room122/">room122</a></li>
+						   <li><a href="http://www.flickr.com/people/guitavares/">gui.tavares</a></li>
+						   <li><a href="http://www.flickr.com/people/ryanbrunsvold/">Ryan Brunsvold</a></li>
+						   <li><a href="http://www.flickr.com/people/coryschmitz/">Cory Schmitz</a></li>
+						   <li><a href="http://www.flickr.com/people/yto/">yto</a></li>
+                        </ul>
+						
+						
+						<p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum. Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum.</p>
+					<p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum. Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum.</p>
+						
+                    </div>
+					
+                </div>
+                
+               
+                
+                
+            </div>            
+            <!--************************** CONTENT -->
+            
+            
+        <!-- InstanceEndEditable -->
+                
+                
+        </section>
+        <!--************************** MIDDLE -->
+        
+
+    </div>
+    <!--************************** CONTAINER -->
+    
+   
+    
+    
+    
+    <!--************************** FOOTER -->
+    <footer class="footer">
+    	<div class="container">
+            <div class="row">
+            	
+                
+                <!--widget-->
+                <div class="span3 widget text-widget">
+                    <h3><b>ABOUT RESPONSY</b></h3>
+                    <p><img class="logo" alt="logo" src="img/logo.png"> We are a highly creative design agency based in Istanbul. We create beatiful and clean web templates. We love our work.</p>
+                    
+                    <!--<p>See <a href="../credits.html">credits</a> for images used in this theme.</p>-->
+                    
+                    <ul class="social">
+                            <li><a class="facebook" href="#">Facebook</a></li>
+                            <li><a class="twitter" href="#">Twitter</a></li>
+                            <!--<li><a class="flickr" href="#">Flickr</a></li>-->
+                            <!--<li><a class="rss" href="#">RSS</a></li>-->
+                            <!--<li><a class="dribble" href="#">Dribble</a></li>-->
+                            <li><a class="lastfm" href="#">Last Fm</a></li>
+                            <li><a class="linkedin" href="#">Linked In</a></li>
+                            <!--<li><a class="vimeo" href="#">Vimeo</a></li>-->
+                            <!--<li><a class="google" href="#">Google Plus</a></li>-->
+                        </ul>
+                </div>
+                <!--widget-->
+                
+                
+                <!--widget - twitter-->
+                <div class="span3 widget">
+                    <h3><b>Twitter</b></h3>
+                    
+                        <div id="twitter-list">
+                            <ul id="twitter_update_list"></ul>
+                        </div>
+                        <script type="text/javascript" src="../../twitter.com/javascripts/blogger.html"></script>
+                        <script type="text/javascript" src="http://api.twitter.com/1/statuses/user_timeline/envato.json?callback=twitterCallback2&amp;count=2"></script>
+                    
+                </div>
+                <!--widget-->
+                
+                
+                <!--widget - text-->
+                <div class="span3 widget">
+                    <h3><b>WHERE WE ARE ?</b></h3>
+                      <p>Here are two examples of how the:</p>
+                      <address>
+                        <strong>Responsy, Inc.</strong><br>
+                        795 Folsom Ave, Suite 700<br>
+                        San Francisco, CA 94107<br>
+                        <abbr title="Phone">P:</abbr> (123) 456-7890
+                      </address>
+                      <address>
+                        <strong>Full Name</strong><br>
+                        Responsy HTML5
+                      </address>
+                </div>
+                <!--widget-->
+                
+                
+                
+                <!--widget - flickr-->
+                <div class="span3 widget">
+                    <h3><b>Flickr</b></h3>
+                    <div id="flickr_badge_wrapper">
+                        <script type="text/javascript" src="http://www.flickr.com/badge_code_v2.gne?count=8&amp;display=random&amp;size=s&amp;layout=x&amp;source=user&amp;user=52617155@N08"></script>
+                    </div>
+                </div>
+                <!--widget-->
+                
+            </div>
+            <!--row-->
+            
+            <!--row-->
+            <div class="row">
+            	<!-- copyright text -->
+            	<div class="span12 copy-text">
+                	<p>&copy;2012 All Rights Reserved by Responsy</p>
+                </div>
+                <!-- copyright text -->
+            </div>
+            <!--row-->
+            
+      	</div>
+        <!--contaner-->	
+    </footer>
+    <!--************************** FOOTER -->
+    
+    
+
+</body>
+<!-- InstanceEnd -->
+
+</html>

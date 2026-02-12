@@ -1,0 +1,8 @@
+
+/* SKIN SELECT */
+#skin-select { position:fixed; top:140px; left:-100px; width:100px; z-index:1000; border-bottom:1px solid #ddd; }
+#skin-select #toggle { position:absolute; top:0; right:-40px; display:block; width:40px; height:40px; cursor:pointer; background: #222 url(img/style-toggle.png) 0 0 no-repeat; }
+#skin-select #toggle.active { background-position:0 -40px; } 
+#skin-select ul { margin:0; list-style:none; background:#fff; }
+#skin-select ul li a { display:block; padding:10px 20px; text-shadow:none; font-family:Georgia, "Times New Roman", Times, serif; font-style:italic; color:#777; border-top:1px solid #ddd; }
+#skin-select ul li a:hover { color:#000; text-decoration:none; background:#fafafa; } 
